@@ -1,6 +1,6 @@
 module github.com/goreleaser/goreleaser
 
-go 1.17
+go 1.22
 
 require (
 	code.gitea.io/sdk/gitea v0.15.0
@@ -22,9 +22,9 @@ require (
 	github.com/imdario/mergo v0.3.12
 	github.com/jarcoal/httpmock v1.0.8
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/slack-go/slack v0.9.4
+	github.com/slack-go/slack v0.17.3
 	github.com/spf13/cobra v1.2.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.10.0
 	github.com/ulikunitz/xz v0.5.10
 	github.com/vartanbeno/go-reddit/v2 v2.0.0
 	github.com/xanzy/go-gitlab v0.50.3
@@ -94,7 +94,7 @@ require (
 	github.com/google/wire v0.5.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.1.0 // indirect
 	github.com/goreleaser/chglog v0.1.2 // indirect
-	github.com/gorilla/websocket v1.4.2 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.1 // indirect
 	github.com/hashicorp/go-retryablehttp v0.6.8 // indirect
 	github.com/hashicorp/go-version v1.2.1 // indirect
@@ -130,5 +130,5 @@ require (
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
